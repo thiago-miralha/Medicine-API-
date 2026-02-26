@@ -1,5 +1,7 @@
 package com.example.test.spring.Testando.remedio.entity;
 
+import java.time.LocalDate;
+
 import com.example.test.spring.Testando.remedio.DadosCadastroRemedio;
 import com.example.test.spring.Testando.remedio.Laboratorio;
 import com.example.test.spring.Testando.remedio.Via;
@@ -46,8 +48,8 @@ public class RemedioEntity {
     @Enumerated(EnumType.STRING)
     private Via via;
     private String lote;
-    private String quantidade;
-    private String validade;
+    private int quantidade;
+    private LocalDate validade;
 
     @Enumerated(EnumType.STRING)
     private Laboratorio laboratorio;
