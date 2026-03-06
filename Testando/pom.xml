@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.test.spring</groupId>
-	<artifactId>Testando</artifactId>
+	<artifactId>medicineapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TestandoSpringBoot</name>
 	<description>testando pela primeira vez o spring</description>
