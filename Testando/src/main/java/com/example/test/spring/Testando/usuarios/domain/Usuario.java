@@ -1,4 +1,4 @@
-package com.example.test.spring.testando.remedio.usuarios;
+package com.example.test.spring.testando.usuarios.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
